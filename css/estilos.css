@@ -1,5 +1,63 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    font-size: xx-large;
+    font-weight: bold;
+    background-image: linear-gradient(green, lightseagreen);
+}
+
+h3{
+    font-size: x-large;
+    font-weight: bold;
+    background-color: lightblue;
+}
+h4{
+    font-size: large;
+    font-style: italic; 
+    font-weight: bold;  
+}
+h5, h6{
+    font-size: large; 
+    margin: 10px;
+
+}
+li{
+    margin-top: 5px;
+}
+
+image{
+    float:right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 p{
-    color: red;
-    width: 300px;
+    color: black;
+    width: auto;;
     font-weight: bold; 
+}
+/**
+comentarios
+*/
+
+.bloqueDerecha{
+    float:  right;
+}
+
+.bloqueIzquierda{
+    float:  left;
+}
+
+.recuadroSeccion{
+    border-style: double;
+    padding: 10px;
+}
+
+footer{
+    background-image: linear-gradient(green, lightseagreen);
 }
