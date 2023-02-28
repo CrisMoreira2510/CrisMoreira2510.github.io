@@ -8,7 +8,7 @@ header{
     background-image: linear-gradient(green, lightseagreen);
 }
 
-h3{
+h3,button{
     font-size: x-large;
     font-weight: bold;
     background-color: lightblue;
@@ -36,14 +36,12 @@ image{
     clear: both;
     display: table;
   }
+
 p{
     color: black;
     width: auto;;
     font-weight: bold; 
 }
-/**
-comentarios
-*/
 
 .bloqueDerecha{
     float:  right;

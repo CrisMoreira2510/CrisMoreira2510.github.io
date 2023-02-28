@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@700&display=swap" rel="stylesheet"> 
 
- </head>
+</head>
 <body>
     <header class="clearfix">
         <img class="bloqueDerecha" src="https://randomuser.me/api/portraits/men/50.jpg" alt= "Foto cv" height="320px" width="320px" />
@@ -26,15 +26,13 @@
     </header>
 
     <section >
-        
-            <h3>SOBRE MI</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis auctor sollicitudin. Ut sollicitudin, felis ac ultricies bibendum, orci dolor tempor mauris, sed finibus eros urna lacinia leo. Maecenas ut elit finibus, luctus mauris sit amet, accumsan nisi. Duis eu dolor vel magna eleifend hendrerit ut eu mauris. Mauris nec ipsum neque. Ut consectetur leo vel metus laoreet, vel porttitor enim egestas. Integer pulvinar porta augue a pellentesque. Sed vestibulum lorem sit amet tortor mattis venenatis. Nullam tincidunt dui sit amet libero congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices et nisi at cursus. Aenean orci justo, condimentum ut molestie sed, sollicitudin hendrerit neque. Nulla tempor vel est vel fringilla. Suspendisse facilisis facilisis aliquam. Donec sed leo luctus nunc pellentesque interdum vel sit amet ex. Sed rutrum semper placerat. Etiam placerat magna id tellus fringilla varius sit amet iaculis purus. Morbi accumsan lorem venenatis porta rutrum. Pellentesque porta fermentum nisi vel venenatis. </p>
-        
+        <h3>SOBRE MI</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis auctor sollicitudin. Ut sollicitudin, felis ac ultricies bibendum, orci dolor tempor mauris, sed finibus eros urna lacinia leo. Maecenas ut elit finibus, luctus mauris sit amet, accumsan nisi. Duis eu dolor vel magna eleifend hendrerit ut eu mauris. Mauris nec ipsum neque. Ut consectetur leo vel metus laoreet, vel porttitor enim egestas. Integer pulvinar porta augue a pellentesque. Sed vestibulum lorem sit amet tortor mattis venenatis. Nullam tincidunt dui sit amet libero congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices et nisi at cursus. Aenean orci justo, condimentum ut molestie sed, sollicitudin hendrerit neque. Nulla tempor vel est vel fringilla. Suspendisse facilisis facilisis aliquam. Donec sed leo luctus nunc pellentesque interdum vel sit amet ex. Sed rutrum semper placerat. Etiam placerat magna id tellus fringilla varius sit amet iaculis purus. Morbi accumsan lorem venenatis porta rutrum. Pellentesque porta fermentum nisi vel venenatis. </p>  
     </section>
 
     <section >
-        
-            <h3>EDUCACION</h3>
+        <button type="button" id="boton2"  >EDUCACION</button>
+        <div id="educacion" style="display:none">
             <h4>UNIVERSIDAD FULANA</h4>
             <ul>
                 <li>Titulo, 2010</li>
@@ -45,21 +43,22 @@
                 <li>Titulo, 2003</li>
                 <li>Promedio notas: </li>
             </ul>
+        </div>
+        <script src="js/proyecto.js"></script>    
     </section>
 
-    <section >
-        
-        <h3>EXPERIENCIA LABORAL</h3>
-        <h4>EMPRESA 1, 01/01/2008 al 01/01/2010</h4>
-        <h5>Cargo/Puesto</h5>
-        <h6>Tareas desempeñadas:</h6>
-            <ul>
-                <li>Tarea 1</li>
-                <li>Tarea 2</li>
-                <li>Tarea 3</li>
-                <li>Tarea 4</li>
-            </ul>
-
+    <section > 
+        <button type="button" id="boton3"  >EXPERIENCIA LABORAL</button>
+        <div id="experiencia" style="display:none">
+            <h4>EMPRESA 1, 01/01/2008 al 01/01/2010</h4>
+            <h5>Cargo/Puesto</h5>
+            <h6>Tareas desempeñadas:</h6>
+                <ul>
+                    <li>Tarea 1</li>
+                    <li>Tarea 2</li>
+                    <li>Tarea 3</li>
+                    <li>Tarea 4</li>
+                </ul>
             <h4>EMPRESA 2, 02/01/2011 al 01/01/2018</h4>
             <h5>Cargo/Puesto</h5>
             <h6>Tareas desempeñadas:</h6>
@@ -69,12 +68,13 @@
                 <li>Tarea 3</li>
                 <li>Tarea 4</li>
             </ul> 
-   
+        </div>
+        <script src="js/proyecto.js"></script>
     </section>
 
-    <section>
-        
-            <h3>HABILIDADES</h3>
+    <section>   
+        <button type="button" id="boton4"  >HABILIDADES</button>
+        <div id="habilidades" style="display:none">
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                 <li>Ut et nunc gravida, placerat elit eu, porttitor sapien.</li>
@@ -82,11 +82,13 @@
                 <li> Sed malesuada elit sit amet arcu suscipit, nec dictum felis dapibus.</li>
                 <li>Curabitur ultrices turpis eu lectus condimentum efficitur.</li>
             </ul>
-        
+        </div>
+        <script src="js/proyecto.js"></script>
     </section>
         
-    <section>
-            <h3>CERTIFICACIONES / IDIOMAS</h3>
+    <section>   
+        <button type="button" id="boton5"  >CERTIFICACIONES / IDIOMAS</button>
+        <div id="certif" style="display:none">
             <h4>CURSO X</h4>
             <ul>
                 <li>Maecenas pretium nunc in pulvinar accumsan, 2005</li>
@@ -101,10 +103,10 @@
                 <li>Maecenas pretium nunc in pulvinar accumsan, 2003</li>
                 <li>Nivel : Avanzado</li>
             </ul>
-        
+        </div>
+        <script src="js/proyecto.js"></script>
     </section>
    
-    
     
     <footer>
        <h4>TELEFONO DE CONTACTO</h4> 
