@@ -8,7 +8,7 @@ header{
     background-image: linear-gradient(green, lightseagreen);
 }
 
-h3,button{
+h3, button{
     font-size: x-large;
     font-weight: bold;
     background-color: lightblue;

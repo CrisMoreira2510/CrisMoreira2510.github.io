@@ -1,7 +1,3 @@
-document.getElementById('boton1').onclick = function(){
-   console.log ("sobremi");
-document.getElementById('sobremi').style.display='block';
-}
 
 document.getElementById('boton2').onclick = function(){
     console.log ("educacion");
